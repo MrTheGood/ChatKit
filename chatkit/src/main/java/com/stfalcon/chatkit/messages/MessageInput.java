@@ -19,8 +19,6 @@ package com.stfalcon.chatkit.messages;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.widget.Space;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
@@ -34,6 +32,9 @@ import android.widget.TextView;
 import com.stfalcon.chatkit.R;
 
 import java.lang.reflect.Field;
+
+import androidx.core.view.ViewCompat;
+import androidx.legacy.widget.Space;
 
 /**
  * Component for input outcoming messages
